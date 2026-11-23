@@ -2,25 +2,35 @@
 <html lang="en">
 
 <head>
-    <?php include 'common/config.php'; ?>
+    <?php 
+    include 'common/config.php'; 
+    $page_title = "Coral Web Technology – Web Development, SEO, Google Ads & Meta Ads Agency";
+    $page_description = "Coral Web Technology is India's leading digital agency for custom web development, SEO services, Google Ads management, Meta Ads (Facebook & Instagram), and social media marketing.";
+    $page_keywords = "Coral Web Technology, web development, SEO services, google ads, meta ads, social media marketing, digital marketing, website design, Patna";
+    ?>
     <?php include 'common/head.php'; ?>
     <?php include 'common/plugins.php'; ?>
-    <link rel="preload" as="image" href="<?= $base_url ?>assets/images/banner/banner.jpg">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<meta name="google-site-verification" content="IIOU8rPCF02uyHIWxr4lMdeULGDEvB_xIxEZbJWyVnw" />
-    
-    
+    <link rel="preload" as="image" href="<?= $base_url ?>assets/images/banner/banner.webp" type="image/webp" fetchpriority="high">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </noscript>
+    <meta name="google-site-verification" content="IIOU8rPCF02uyHIWxr4lMdeULGDEvB_xIxEZbJWyVnw" />
 </head>
 
 <body>
     <main>
-        <h1 class="visually-hidden">Best Web Development & SEO Services - Coral Web Technology</h1>
+        <h1 class="visually-hidden">Coral Web Technology – Best Web Development, SEO, Google & Meta Ads Agency</h1>
         <?php include 'common/header.php'; ?>
         <!-- ========================================= -->
        <section class="hero py-0">
     <div class="container-fluid px-0">
-        <img src="<?= $base_url ?>assets/images/banner/banner.jpg" class="hero-img" alt="Hero Banner" width="1280" height="853" fetchpriority="high" loading="eager">
+        <picture>
+            <source srcset="<?= $base_url ?>assets/images/banner/banner.webp" type="image/webp">
+            <img src="<?= $base_url ?>assets/images/banner/banner.jpg" class="hero-img" alt="Coral Web Technology Web Development and Digital Marketing Banner" width="1024" height="682" fetchpriority="high" loading="eager" decoding="async">
+        </picture>
     </div>
 </section>
 
@@ -58,7 +68,7 @@
             ['url' => 'https://www.annapurnahometuition.in/', 'img' => '18.avif'],
             ['url' => 'http://digitalwebseoadsagency.online/', 'img' => '19.avif'],
             ['url' => 'https://sudhaarnashamuktikendra.in/', 'img' => '20.avif'],
-            ['url' => 'https://www.shreejigemsvastuvigyan.in/', 'img' => '21.png'],
+            ['url' => 'https://www.shreejigemsvastuvigyan.in/', 'img' => '21.webp'],
             ['url' => 'https://ioclks.com/', 'img' => '22.jpg'],
             ['url' => 'https://mysterymassage.in/', 'img' => '23.png'],
             ['url' => 'https://laserhairremoval.skinhealer.in/', 'img' => '24.png'],
@@ -204,7 +214,7 @@
         <a href="tel:+919142569346" style="text-decoration: none; color: inherit;">
             <div class="call-content">
                 <div class="call-text"><i class="bi bi-telephone-fill me-1"></i> Speak with Our Expert</div>
-                <h2><span id="animatedNumber"></span></h2>
+                <div class="call-number fs-3 fw-bold my-1"><span id="animatedNumber">+91 9142569346</span></div>
             </div>
         </a>
     </div>
@@ -643,7 +653,7 @@ $pricing_plans = [
                                 <div class="mb-3 image">
                                     <img src="assets/images/pricing/<?= $plan['img'] ?>" alt="<?= htmlspecialchars($plan['title']) ?>" class="img-fluid w-100 rounded" width="350" height="150" loading="lazy" decoding="async" style="height:150px; object-fit:cover;">
                                 </div>
-                                <h5 class="fw-bold title" style="font-size: 1.05rem; min-height: 50px; margin-bottom: 10px;"><?= $plan['title'] ?></h5>
+                                <h3 class="fw-bold title" style="font-size: 1.05rem; min-height: 50px; margin-bottom: 10px;"><?= $plan['title'] ?></h3>
                                 <p class="mb-1 text-muted small">Starting From</p>
                                 <h4 class="fw-bold text-danger mb-3"><?= $plan['price_text'] ?></h4>
                                 <a href="<?= $base_url ?><?= $plan['link'] ?>" class="btn btn-dark btn-sm w-100 my-2 rounded-pill">Explore Services</a>
@@ -1606,12 +1616,17 @@ $pricing_plans = [
                         </div>
                     </div>
                     <div class="mt-4 pt-3 border-top text-center text-md-start d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="text-muted small">
-                            <strong>Corporate Office:</strong> Chandrakanta Apartment, 2nd Floor, Room No. 201, Opposite Harihar Chamber, Pandui Kothi, Boring Road, Patna, Bihar – 800001
-                        </div>
+                        <address class="text-muted small mb-0" style="font-style: normal;" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                            <strong>Corporate Office:</strong> 
+                            <span itemprop="streetAddress">Chandrakanta Apartment, 2nd Floor, Room No. 201, Opposite Harihar Chamber, Pandui Kothi, Boring Road</span>, 
+                            <span itemprop="addressLocality">Patna</span>, 
+                            <span itemprop="addressRegion">Bihar</span> – 
+                            <span itemprop="postalCode">800001</span>,
+                            <span itemprop="addressCountry">IN</span>
+                        </address>
                         <div class="mt-2 mt-md-0">
                             <a href="tel:+919142569346" class="text-dark fw-bold text-decoration-none me-3"><i class="bi bi-telephone-fill text-primary me-1"></i>+91 9142569346</a>
-                            <a href="mailto:coralwebtechnology@gmail.com" class="text-dark text-decoration-none"><i class="bi bi-envelope-fill text-danger me-1"></i>coralwebtechnology@gmail.com</a>
+                            <a href="mailto:&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="text-dark text-decoration-none"><i class="bi bi-envelope-fill text-danger me-1"></i>&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
                         </div>
                     </div>
                 </div>
@@ -1721,8 +1736,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Initialize Swiper Portfolio Slider with Coverflow Effect

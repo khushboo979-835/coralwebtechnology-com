@@ -1,0 +1,46 @@
+# Coral Web Technology - Comprehensive Knowledge & Entity Base
+
+## Organization Overview
+Coral Web Technology is an established Information Technology and Digital Marketing agency with headquarters at Boring Road Chauraha, Patna, Bihar, and branch operations in New Delhi, Nashik, and Pune.
+
+### Canonical Identifiers
+- Official Name: Coral Web Technology
+- URL: https://coralwebtechnology.com
+- Industry: Information Technology, Web Development, Digital Marketing, SEO
+- Founded: 2025
+- Managing Director / Founders: Industry Certified IT & Marketing Specialists
+- Tax / Business Address: Chandrakanta Apartment, Room No. 201, Opposite Harihar Chamber, Boring Road Chauraha, Pandooi Kothi, Patna, Bihar – 800001, India
+
+### Contact Details
+- Calling: +91 9142569346 / +91 8102549601
+- WhatsApp: +91 91177 41984
+- Customer Support: +91 84095 01846
+- Email: coralwebtechnology@gmail.com
+
+### Social & Authority Profiles
+- YouTube Channel: https://www.youtube.com/@coralwebtechnology
+- YouTube Handle: @coralwebtechnology
+- LinkedIn Organization: https://www.linkedin.com/company/coral-web-technology/
+- Facebook Page: https://www.facebook.com/share/14uPicDDaFo/
+- Instagram: https://www.instagram.com/coralwebtechnology
+- Pinterest: https://pin.it/LNuLPSwjg
+- Quora: https://www.quora.com/profile/Coral-Web-Technology
+
+## Technology Stack
+- Front-End: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, Modern Responsive UI/UX
+- Back-End: PHP 8.x, Python, Node.js, RESTful APIs, MVC Frameworks
+- Database: MySQL, MariaDB, PostgreSQL
+- CMS & E-Commerce: WordPress, WooCommerce, Shopify, Custom E-commerce Engines
+- Cloud & Hosting: Hostinger, AWS, cPanel/Linux Server Administration, SSL/TLS, WAF, Cloudflare CDN
+- Analytics & Ad Tech: Google Analytics 4 (GA4), Google Tag Manager (GTM), Google Search Console, Meta Pixel, Google Ads API
+
+## Services Portfolio
+1. Web Design & Custom Website Development
+2. Mobile Application Engineering (Android & iOS)
+3. Search Engine Optimization (SEO) - Technical, Local, On-Page, Off-Page
+4. Google Ads & Performance Max (PPC)
+5. Meta Ads Management (Facebook & Instagram Lead Generation)
+6. YouTube Ads & Video Marketing
+7. Social Media Management & Creative Production
+8. E-Commerce Solutions (Amazon, Flipkart, Meesho, Shopify)
+9. Enterprise Software & CRM / ERP Development

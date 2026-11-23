@@ -59,9 +59,45 @@
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4">
-                <div class="iframe-wrapper">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.564133867179!2d85.11813267416964!3d25.61196331477862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed593b06f0bc37%3A0x1e304fcb9cf6d46a!2sCoral%20Web%20Technology%3A!5e1!3m2!1sen!2sin!4v1765621972337!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps Office Location"></iframe>
+                <div class="map-facade-box rounded-4 overflow-hidden shadow-sm position-relative mb-4 mb-md-0" style="min-height: 480px; background: #0f172a;" id="mapWrapper">
+                    <div class="p-4 text-white d-flex flex-column justify-content-between h-100" id="mapPlaceholder">
+                        <div>
+                            <span class="badge bg-danger mb-2 px-3 py-2 rounded-pill"><i class="bi bi-geo-alt-fill me-1"></i> Visit Office</span>
+                            <h4 class="fw-bold text-white mb-2">Coral Web Technology</h4>
+                            <p class="text-light small mb-3">Chandrakanta Apartment, Room No. 201, Opposite Harihar Chamber, Boring Road Chauraha, Patna, Bihar – 800001</p>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <a href="tel:+919142569346" class="btn btn-sm btn-outline-light"><i class="bi bi-telephone-fill me-1"></i> Call Now</a>
+                                <a href="https://maps.google.com/?q=Coral+Web+Technology+Patna" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-danger"><i class="bi bi-box-arrow-up-right me-1"></i> Directions</a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4 my-auto">
+                            <button type="button" class="btn btn-light rounded-pill shadow px-4 py-2 fw-semibold" id="interactiveMapBtn" onclick="activateGoogleMap()">
+                                <i class="bi bi-map-fill text-danger me-2"></i> View Interactive Map
+                            </button>
+                        </div>
+                        <div class="text-center text-white-50 small">
+                            <i class="bi bi-clock me-1"></i> Mon - Sat: 09:00 AM - 07:00 PM
+                        </div>
+                    </div>
                 </div>
+                <script>
+                function activateGoogleMap() {
+                    var wrapper = document.getElementById('mapWrapper');
+                    if (wrapper && !wrapper.querySelector('iframe')) {
+                        wrapper.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.564133867179!2d85.11813267416964!3d25.61196331477862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed593b06f0bc37%3A0x1e304fcb9cf6d46a!2sCoral%20Web%20Technology%3A!5e1!3m2!1sen!2sin!4v1765621972337!5m2!1sen!2sin" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps Office Location"></iframe>';
+                    }
+                }
+                if ('IntersectionObserver' in window) {
+                    var mapObs = new IntersectionObserver(function(entries) {
+                        if (entries[0].isIntersecting) {
+                            activateGoogleMap();
+                            mapObs.disconnect();
+                        }
+                    }, { rootMargin: '200px' });
+                    var targetElem = document.getElementById('mapWrapper');
+                    if (targetElem) mapObs.observe(targetElem);
+                }
+                </script>
             </div>
             <div class="col-md-8">
                 <div class="form-card">

@@ -133,9 +133,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <!-- Title & SEO Meta -->
-<title><?= htmlspecialchars($page_title ?? 'Best SEO & Web Development Company – Coral Web Technology') ?></title>
-<meta name="description" content="<?= htmlspecialchars($page_description ?? 'Boost your brand with Coral Web Technology, Boring Road Chauraha – expert in digital marketing, SEO services, web development & branding solutions.') ?>" />
-<meta name="keywords" content="<?= htmlspecialchars($page_keywords ?? 'Coral Web Technology, digital marketing, SEO services, web development, graphic designing, lead generation, branding') ?>" />
+<title><?= htmlspecialchars($page_title ?? 'Coral Web Technology – Best Web Development, SEO, Google & Meta Ads Agency') ?></title>
+<meta name="description" content="<?= htmlspecialchars($page_description ?? 'Coral Web Technology is India\'s top agency for website development, SEO services, Google Ads, Meta Ads (Facebook & Instagram), and social media marketing.') ?>" />
+<meta name="keywords" content="<?= htmlspecialchars($page_keywords ?? 'Coral Web Technology, web development, SEO services, google ads, meta ads, social media marketing, digital marketing, website design, software development') ?>" />
 <meta name="author" content="Coral Web Technology" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="<?= htmlspecialchars($page_canonical ?? ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'])) ?>" />
@@ -214,6 +214,7 @@ $schemaGraph[] = [
         'https://www.facebook.com/share/14uPicDDaFo/',
         'https://www.instagram.com/coralwebtechnology',
         'https://www.linkedin.com/company/coral-web-technology/',
+        'https://www.youtube.com/@coralwebtechnology',
         'https://youtube.com/@coralwebtechnology?si=gCkR5n1dJ4sEWZ8L',
         'https://pin.it/LNuLPSwjg',
         'https://www.quora.com/profile/Coral-Web-Technology',
@@ -261,6 +262,10 @@ if (isset($pageData) && is_array($pageData)) {
 <link rel="icon" type="image/png" sizes="16x16" href="<?= $base_url ?>favicon-16x16.png" />
 <!-- <link rel="manifest" href="<?= $base_url ?>site.webmanifest" /> -->
 <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />-->
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+<!-- Non-blocking Google Fonts (Montserrat & Poppins) -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+</noscript>
 

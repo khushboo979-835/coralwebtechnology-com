@@ -18,11 +18,10 @@ if (!$is_main_index):
 ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBMSZ2NP"
-height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager" loading="lazy"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <?php endif; ?>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
     :root {
         --primary-coral: #ff4d4d;
         --dark-shade: #1a1a1a;
@@ -450,11 +449,18 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     <!-- Top Bar Information -->
     <div class="top-bar d-none d-md-block">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-8 text-center text-md-start">
                     <span class="me-4"><i class="bi bi-geo-alt me-2"></i> Boring Road, Patna, Bihar - 801503</span>
                     <span class="me-4"><i class="bi bi-telephone me-2"></i> <a href="tel:+919142569346" class="text-white text-decoration-none">+91 9142569346</a></span>
                     <span><i class="bi bi-envelope me-2"></i> <a href="mailto:&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="text-white text-decoration-none">&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></span>
+                </div>
+                <div class="col-md-4 text-end d-none d-md-flex justify-content-end align-items-center gap-3">
+                    <a href="https://www.youtube.com/@coralwebtechnology?si=gCkR5n1dJ4sEWZ8L" target="_blank" rel="me noopener noreferrer" class="text-white text-decoration-none small" title="YouTube Channel"><i class="bi bi-youtube text-danger me-1"></i> YouTube</a>
+                    <span class="text-white-50">|</span>
+                    <a href="https://www.linkedin.com/company/coral-web-technology/" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-none small" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/14uPicDDaFo/" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-none small" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/coralwebtechnology" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-none small" title="Instagram"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -694,8 +700,18 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>careers.php">Careers</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>blogs/">Blogs</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>contact-us.php">Contact</a></li>
+                <!-- Mobile Social Links -->
+                <li class="mt-4 pt-3 border-top text-center">
+                    <p class="small text-muted mb-2">Connect With Us</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://www.youtube.com/@coralwebtechnology?si=gCkR5n1dJ4sEWZ8L" target="_blank" rel="me noopener noreferrer" class="fs-4 text-danger" title="YouTube"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.facebook.com/share/14uPicDDaFo/" target="_blank" rel="noopener noreferrer" class="fs-4 text-primary" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/coralwebtechnology" target="_blank" rel="noopener noreferrer" class="fs-4 text-danger" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/coral-web-technology/" target="_blank" rel="noopener noreferrer" class="fs-4 text-primary" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </li>
                 <!-- Mobile Offcanvas Action Buttons -->
-                <li class="mt-5 text-center">
+                <li class="mt-4 text-center">
                     <a href="tel:+919142569346" class="btn btn-pro btn-call-pro w-100 mb-3" id="call-btn-mobile-menu">CALL NOW</a>
                     <a href="<?= $base_url ?>schedule-meeting.php" class="btn btn-pro btn-book-pro w-100" id="book-btn-mobile-menu">BOOK SLOT</a>
                 </li>

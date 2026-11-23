@@ -1,17 +1,3 @@
-<!-- AOS JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        duration: 800
-    });
-</script>
-<!-- Bootstrap 5.3.3 JS Bundle (includes Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
-</script>
-<!-- JS Scripts -->
-
-<!-- ============================================================================================ -->
 <?php if (isset($service_key) && function_exists('renderServiceLocationsSection')): ?>
     <?php renderServiceLocationsSection($service_key, $base_url); ?>
 <?php endif; ?>
@@ -113,7 +99,7 @@
                                 <path d="M9.66 12.33h3.5v11.34h-3.5V12.33zM11.41 6.8a2.03 2.03 0 110 4.06 2.03 2.03 0 010-4.06zM15.42 12.33h3.35v1.55h.05c.47-.88 1.61-1.81 3.32-1.81 3.55 0 4.2 2.34 4.2 5.38v6.22h-3.5v-5.51c0-1.31-.03-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9v5.61h-3.48V12.33z" fill="#ffffff"/>
                             </svg>
                         </a>
-                        <a href="https://youtube.com/@coralwebtechnology?si=gCkR5n1dJ4sEWZ8L" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="YouTube Channel" title="YouTube">
+                        <a href="https://www.youtube.com/@coralwebtechnology?si=gCkR5n1dJ4sEWZ8L" target="_blank" rel="me noopener noreferrer" class="social-icon-btn" aria-label="YouTube Channel" title="YouTube">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="32" height="32" rx="8" fill="#FF0000"/>
                                 <path d="M24.8 11.2c-.22-.84-.88-1.5-1.72-1.73C21.57 9 16 9 16 9s-5.57 0-7.08.47c-.84.23-1.5.89-1.72 1.73C6.73 12.72 6.73 16 6.73 16s0 3.28.47 4.8c.22.84.88 1.5 1.72 1.73 1.51.47 7.08.47 7.08.47s5.57 0 7.08-.47c.84-.23 1.5-.89 1.72-1.73.47-1.52.47-4.8.47-4.8s0-3.28-.47-4.8zM14.09 19.36v-6.72L19.91 16l-5.82 3.36z" fill="#ffffff"/>
@@ -180,7 +166,7 @@
                     <meta itemprop="name" content="Coral Web Technology" />
                     <meta itemprop="image" content="<?= $base_url ?>assets/images/logo/coral-logo-square.jpg" />
                     <h5 class="text-white fw-bold">Contact Us</h5>
-                    <div class="py-1" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <address class="py-1 mb-0" style="font-style: normal;" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                         <p class=""><i class="bi bi-geo-alt me-2 text-warning"></i> <strong>Corporate Office: </strong> 
                             <span itemprop="streetAddress">Chandrakanta Appartment, Room No:- 201, Opposite Harihar Chamber, Boring Road Chauraha, Pandooi Kothi</span>, 
                             <span itemprop="addressLocality">Patna</span>, 
@@ -191,7 +177,7 @@
                         <p class=""><i class="bi bi-geo-alt me-2"></i><strong>1<sup>st</sup> Branch: </strong> Pusp ratan row house, Near Vishwakarma chauk Shramik nagar, carbon naka, MIDC Satpur, Nashik, Maharashtra, 422007</p>
                         <p class=""><i class="bi bi-geo-alt me-2"></i><strong>2<sup>nd</sup> Branch: </strong> 7F/7A, DDA Building, District centre Janakpuri, New Delhi, Delhi, 110058</p>
                         <p class=""><i class="bi bi-geo-alt me-2"></i><strong>3<sup>rd</sup> Branch: </strong> Above Monginis Cake Shop, Aundh-Wakad Rd, opposite Copa Cobana Restaurant, Vishal Nagar, Pune, Maharashtra, 411027</p>
-                    </div>
+                    </address>
                     <div class="py-1">
                         <p class=""><i class="bi bi-envelope me-2 text-warning"></i>Email: <a href="mailto:&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="text-white text-decoration-none" itemprop="email">&#99;&#111;&#114;&#97;&#108;&#119;&#101;&#98;&#116;&#101;&#99;&#104;&#110;&#111;&#108;&#111;&#103;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
                     </div>
@@ -222,4 +208,16 @@
             </div>
         </div>
    </footer>
+
+<!-- Bootstrap 5.3.3 JS Bundle (Deferred) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+<!-- AOS JS (Deferred) -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof AOS !== 'undefined') {
+            AOS.init({ once: true, duration: 800 });
+        }
+    });
+</script>
 

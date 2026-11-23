@@ -1,6 +1,17 @@
-# Allow all search engines to crawl the entire site
+# Allow all search engines to crawl the site
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /uploads/resumes/
 
-# Sitemap location (optional but recommended)
+# AI Crawlers & LLM Content
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ClaudeBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Sitemap & LLM Knowledge base
 Sitemap: https://coralwebtechnology.com/sitemap.xml
+Sitemap: https://coralwebtechnology.com/llms.txt
