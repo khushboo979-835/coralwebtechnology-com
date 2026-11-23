@@ -448,7 +448,7 @@
             padding: 5px 14px; border-radius: 50px; font-size: 11px;
             font-weight: 800; display: inline-block; margin-bottom: 12px;
         }
-        .popup-header h3 { font-size: 1.8rem; color: white; margin-bottom: 8px; }
+        .popup-header h3, .popup-header .popup-title { font-size: 1.8rem; color: white; margin-bottom: 8px; font-weight: 700; }
         .popup-close {
             position: absolute; top: 16px; right: 16px;
             width: 34px; height: 34px; background: rgba(255,255,255,0.2);
@@ -475,7 +475,7 @@
         }
         @media (max-width: 576px) {
             #leadPopup { width: 92%; }
-            .popup-header h3 { font-size: 1.4rem; }
+            .popup-header h3, .popup-header .popup-title { font-size: 1.4rem; }
         }
     </style>
 </head>
@@ -728,7 +728,7 @@
         <div class="popup-header">
             <button class="popup-close" onclick="closeLeadPopup()" aria-label="Close" style="background:none; border:none; color:inherit; font-size:24px; line-height:1; cursor:pointer;">&times;</button>
             <div class="popup-badge">✨ Limited Time Offer ✨</div>
-            <h3>Book a Free Consultation</h3>
+            <span class="popup-title d-block">Book a Free Consultation</span>
             <p>Grow your business and Connect With Our Experts</p>
         </div>
         <div class="popup-body">

@@ -14,9 +14,11 @@
         font-weight: 500;
     }
 
-    .footer-main h5 {
+    .footer-main h5,
+    .footer-main .footer-title {
         font-weight: 600;
         margin-bottom: 15px;
+        font-size: 1.25rem;
     }
 
     .footer-main ul li {
@@ -63,7 +65,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="d-flex align-items-center gap-3 mb-3">
                         <img src="<?= $base_url ?>assets/images/logo/coral-logo-square.jpg" alt="Coral Web Technology Logo" class="rounded-3 shadow-sm" width="55" height="55" style="object-fit: cover;">
-                        <h5 class="m-0 text-white fw-bold">About Coral Web</h5>
+                        <p class="m-0 text-white fw-bold footer-title"><strong>About Coral Web</strong></p>
                     </div>
                     <p class="text-justify">
                         At Coral Web Technology, we are passionate about building digital solutions that help businesses
@@ -123,7 +125,7 @@
                 <div class="col-md-4  mt-4 mt-lg-0 footer-links">
                     <div class="row">
                         <div class="col-5">
-                            <h5>Quick Links</h5>
+                            <p class="text-white footer-title"><strong>Quick Links</strong></p>
                             <ul class="list-unstyled">
                                 <li><a href="<?= $base_url ?>" class=""><i class="bi bi-arrow-right me-2"></i>Home</a>
                                 </li>
@@ -141,7 +143,7 @@
                             </ul>
                         </div>
                         <div class="col-7">
-                            <h5>Services</h5>
+                            <p class="text-white footer-title"><strong>Services</strong></p>
                             <ul class="list-unstyled">
                                 <li><a href="<?= $base_url ?>services/software-development.php" class=""><i
                                             class="bi bi-arrow-right me-2"></i>Software Development</a></li>
@@ -165,7 +167,7 @@
                 <div class="col-md-4" itemscope itemtype="https://schema.org/LocalBusiness">
                     <meta itemprop="name" content="Coral Web Technology" />
                     <meta itemprop="image" content="<?= $base_url ?>assets/images/logo/coral-logo-square.jpg" />
-                    <h5 class="text-white fw-bold">Contact Us</h5>
+                    <p class="text-white fw-bold footer-title"><strong>Contact Us</strong></p>
                     <address class="py-1 mb-0" style="font-style: normal;" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                         <p class=""><i class="bi bi-geo-alt me-2 text-warning"></i> <strong>Corporate Office: </strong> 
                             <span itemprop="streetAddress">Chandrakanta Appartment, Room No:- 201, Opposite Harihar Chamber, Boring Road Chauraha, Pandooi Kothi</span>, 

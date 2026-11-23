@@ -655,7 +655,7 @@ $pricing_plans = [
                                 </div>
                                 <h3 class="fw-bold title" style="font-size: 1.05rem; min-height: 50px; margin-bottom: 10px;"><?= $plan['title'] ?></h3>
                                 <p class="mb-1 text-muted small">Starting From</p>
-                                <h4 class="fw-bold text-danger mb-3"><?= $plan['price_text'] ?></h4>
+                                <p class="fw-bold text-danger h4 mb-3"><?= $plan['price_text'] ?></p>
                                 <a href="<?= $base_url ?><?= $plan['link'] ?>" class="btn btn-dark btn-sm w-100 my-2 rounded-pill">Explore Services</a>
                                 
                                 <div class="mb-2 text-start mt-2">
@@ -917,35 +917,35 @@ $pricing_plans = [
                                 <div class="client-box p-3  bg-white rounded text-center h-100">
                                     <img src="<?= $base_url ?>assets/images/services/hospital.webp"
                                         class="img-fluid mb-2" alt="Apollo Hospital" width="200" height="124" loading="lazy" decoding="async">
-                                    <h6 class="fw-bold text-dark mb-0">Apollo Hospital</h6>
+                                    <p class="fw-bold text-dark mb-0 h6">Apollo Hospital</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="client-box p-3  bg-white rounded text-center h-100">
                                     <img src="<?= $base_url ?>assets/images/services/hospital.webp"
                                         class="img-fluid mb-2" alt="Fortis Healthcare" width="200" height="124" loading="lazy" decoding="async">
-                                    <h6 class="fw-bold text-dark mb-0">Fortis Healthcare</h6>
+                                    <p class="fw-bold text-dark mb-0 h6">Fortis Healthcare</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="client-box p-3  bg-white rounded text-center h-100">
                                     <img src="<?= $base_url ?>assets/images/services/hospital.webp"
                                         class="img-fluid mb-2" alt="Max Super Specialty" width="200" height="124" loading="lazy" decoding="async">
-                                    <h6 class="fw-bold text-dark mb-0">Max Super Specialty</h6>
+                                    <p class="fw-bold text-dark mb-0 h6">Max Super Specialty</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="client-box p-3  bg-white rounded text-center h-100">
                                     <img src="<?= $base_url ?>assets/images/services/hospital.webp"
                                         class="img-fluid mb-2" alt="Medanta Hospital" width="200" height="124" loading="lazy" decoding="async">
-                                    <h6 class="fw-bold text-dark mb-0">Medanta Hospital</h6>
+                                    <p class="fw-bold text-dark mb-0 h6">Medanta Hospital</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Counter -->
                         <div class="mt-4">
-                            <h4 class="fw-bold text-success">15+ Hospitals Served</h4>
+                            <p class="fw-bold text-success h4 mb-0">15+ Hospitals Served</p>
                         </div>
                     </div>
                 </div>
@@ -1003,25 +1003,25 @@ $pricing_plans = [
                         <div class="row g-4">
                             <div class="col-12">
                                 <div class="feature-card shadow-sm border-start border-4 border-primary">
-                                    <h5 class="fw-semibold mb-2"><i
+                                    <h3 class="h5 fw-semibold mb-2"><i
                                             class="bi bi-bar-chart-line-fill text-primary me-2"></i>Tailored Strategies
-                                    </h5>
+                                    </h3>
                                     <p class="text-muted mb-0">We understand every business is unique, so we craft
                                         personalized plans that bring results.</p>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="feature-card shadow-sm border-start border-4 border-primary">
-                                    <h5 class="fw-semibold mb-2"><i
-                                            class="bi bi-people-fill text-primary me-2"></i>Expert Team</h5>
+                                    <h3 class="h5 fw-semibold mb-2"><i
+                                            class="bi bi-people-fill text-primary me-2"></i>Expert Team</h3>
                                     <p class="text-muted mb-0">From marketers to developers, our in-house experts ensure
                                         top-notch service at every stage.</p>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="feature-card shadow-sm border-start border-4 border-primary">
-                                    <h5 class="fw-semibold mb-2"><i
-                                            class="bi bi-clock-history text-primary me-2"></i>On-Time Delivery</h5>
+                                    <h3 class="h5 fw-semibold mb-2"><i
+                                            class="bi bi-clock-history text-primary me-2"></i>On-Time Delivery</h3>
                                     <p class="text-muted mb-0">We respect deadlines. Always. Your project will be
                                         delivered efficiently, without compromising quality.</p>
                                 </div>
@@ -1186,7 +1186,7 @@ $pricing_plans = [
                                 <div class="icon-box mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background: rgba(13, 110, 253, 0.1); color: #0d6efd; border-radius: 15px; font-size: 1.5rem;">
                                     <i class="bi bi-meta"></i>
                                 </div>
-                                <h4 class="fw-bold mb-3">Meta Ads Management</h4>
+                                <h3 class="h4 fw-bold mb-3">Meta Ads Management</h3>
                                 <ul class="list-unstyled mb-4">
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-primary me-2"></i>Facebook & Insta Setup</li>
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-primary me-2"></i>Audience Targeting</li>
@@ -1196,7 +1196,7 @@ $pricing_plans = [
                                 </ul>
                                 <div class="pt-3 border-top mt-auto">
                                     <span class="text-muted small">Monthly / 3-Month Package</span>
-                                    <h4 class="fw-bold text-primary mb-0">₹10,000 <span class="fs-6 text-muted fw-normal">/mo</span></h4>
+                                    <p class="fw-bold text-primary h4 mb-0">₹10,000 <span class="fs-6 text-muted fw-normal">/mo</span></p>
                                     <span class="badge bg-light text-dark border mt-1">3-Month: ₹25,000</span>
                                 </div>
                             </div>
@@ -1210,7 +1210,7 @@ $pricing_plans = [
                                 <div class="icon-box mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background: rgba(111, 66, 193, 0.1); color: #6f42c1; border-radius: 15px; font-size: 1.5rem;">
                                     <i class="bi bi-instagram"></i>
                                 </div>
-                                <h4 class="fw-bold mb-3">Social Media Marketing</h4>
+                                <h3 class="h4 fw-bold mb-3">Social Media Marketing</h3>
                                 <ul class="list-unstyled mb-4">
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-purple me-2"></i>10 Creative Posts / mo</li>
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-purple me-2"></i>4 Reels (Video Editing)</li>
@@ -1220,7 +1220,7 @@ $pricing_plans = [
                                 </ul>
                                 <div class="pt-3 border-top mt-auto">
                                     <span class="text-muted small">Monthly / 3-Month Package</span>
-                                    <h4 class="fw-bold mb-0" style="color: #6f42c1;">₹10,000 <span class="fs-6 text-muted fw-normal">/mo</span></h4>
+                                    <p class="fw-bold h4 mb-0" style="color: #6f42c1;">₹10,000 <span class="fs-6 text-muted fw-normal">/mo</span></p>
                                     <span class="badge bg-light text-dark border mt-1">3-Month: ₹25,000</span>
                                 </div>
                             </div>
@@ -1234,7 +1234,7 @@ $pricing_plans = [
                                 <div class="icon-box mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background: rgba(253, 126, 20, 0.1); color: #fd7e14; border-radius: 15px; font-size: 1.5rem;">
                                     <i class="bi bi-google"></i>
                                 </div>
-                                <h4 class="fw-bold mb-3">Google Ads Management</h4>
+                                <h3 class="h4 fw-bold mb-3">Google Ads Management</h3>
                                 <ul class="list-unstyled mb-4">
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-orange me-2"></i>Search Campaign Setup</li>
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-orange me-2"></i>Keyword & Negative Audit</li>
@@ -1244,7 +1244,7 @@ $pricing_plans = [
                                 </ul>
                                 <div class="pt-3 border-top mt-auto">
                                     <span class="text-muted small">Monthly / 3-Month Package</span>
-                                    <h4 class="fw-bold mb-0" style="color: #fd7e14;">₹15,000 <span class="fs-6 text-muted fw-normal">/mo</span></h4>
+                                    <p class="fw-bold h4 mb-0" style="color: #fd7e14;">₹15,000 <span class="fs-6 text-muted fw-normal">/mo</span></p>
                                     <span class="badge bg-light text-dark border mt-1">3-Month: ₹40,000</span>
                                 </div>
                             </div>
@@ -1255,10 +1255,10 @@ $pricing_plans = [
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100 border-0 shadow-sm hover-up" style="border-radius: 20px; transition: all 0.3s ease;">
                             <div class="card-body p-4 d-flex flex-column">
-                                <div class="icon-box mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background: rgba(25, 135, 84, 0.1); color: #198754; border-radius: 15px; font-size: 1.5rem;">
+                                <div class="icon-box mb-3 d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background: rgba(253, 126, 20, 0.1); color: #198754; border-radius: 15px; font-size: 1.5rem;">
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
-                                <h4 class="fw-bold mb-3">GMB / Local SEO</h4>
+                                <h3 class="h4 fw-bold mb-3">GMB / Local SEO</h3>
                                 <ul class="list-unstyled mb-4">
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-success me-2"></i>Complete Optimization</li>
                                     <li class="mb-2 text-muted small"><i class="bi bi-check2-circle text-success me-2"></i>4 Google Posts per Week</li>
@@ -1268,7 +1268,7 @@ $pricing_plans = [
                                 </ul>
                                 <div class="pt-3 border-top mt-auto">
                                     <span class="text-muted small">Monthly / 3-Month Package</span>
-                                    <h4 class="fw-bold text-success mb-0">₹12,000 <span class="fs-6 text-muted fw-normal">/mo</span></h4>
+                                    <p class="fw-bold text-success h4 mb-0">₹12,000 <span class="fs-6 text-muted fw-normal">/mo</span></p>
                                     <span class="badge bg-light text-dark border mt-1">3-Month: ₹25,000 (One-time)</span>
                                 </div>
                             </div>
@@ -1283,8 +1283,8 @@ $pricing_plans = [
                             <div class="card-body p-4 d-flex flex-column">
                                 <div class="text-center mb-3">
                                     <div class="badge bg-warning text-dark mb-2">🔥 MOST POPULAR</div>
-                                    <h4 class="fw-bold mb-1">Professional Growth Package</h4>
-                                    <div class="h3 fw-bold mb-0">₹25,000 <span class="fs-6 opacity-75 fw-normal">/ 3 Months Offer</span></div>
+                                    <h3 class="h4 fw-bold mb-1">Professional Growth Package</h3>
+                                    <div class="fs-3 fw-bold mb-0">₹25,000 <span class="fs-6 opacity-75 fw-normal">/ 3 Months Offer</span></div>
                                 </div>
                                 
                                 <p class="opacity-75 mb-3 small text-center">Complete specialized growth services at a bundled discount.</p>
@@ -1340,8 +1340,8 @@ $pricing_plans = [
                             <div class="card-body p-4 d-flex flex-column text-center">
                                 <div class="mb-3">
                                     <div class="badge bg-primary-soft text-primary mb-2">📈 GMB 3-MONTH PLAN</div>
-                                    <h4 class="fw-bold mb-1 text-dark">GMB SEO 3-Month Package</h4>
-                                    <div class="h3 fw-bold text-primary mb-0">₹25,000 <span class="fs-6 text-muted fw-normal">One-time / ₹30,000 (2 Installments)</span></div>
+                                    <h3 class="h4 fw-bold mb-1 text-dark">GMB SEO 3-Month Package</h3>
+                                    <div class="fs-3 fw-bold text-primary mb-0">₹25,000 <span class="fs-6 text-muted fw-normal">One-time / ₹30,000 (2 Installments)</span></div>
                                 </div>
                                 
                                 <p class="text-muted mb-4 small">Complete GMB optimization, 4 posts/week, citations & monthly reviews.</p>
@@ -1443,7 +1443,7 @@ $pricing_plans = [
                                             <div class="service-icon-pill">
                                                 <i class="bi bi-geo-alt-fill"></i>
                                             </div>
-                                            <h5 class="service-title">GMB Full Growth Service</h5>
+                                            <h3 class="service-title">GMB Full Growth Service</h3>
                                             <p class="small text-muted mb-4">Complete profile optimization, ranking boost, and local visibility setup.</p>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
@@ -1459,7 +1459,7 @@ $pricing_plans = [
                                             <div class="service-icon-pill" style="background: rgba(253, 126, 20, 0.1); color: #fd7e14;">
                                                 <i class="bi bi-google"></i>
                                             </div>
-                                            <h5 class="service-title">Google Ads Full Setup</h5>
+                                            <h3 class="service-title">Google Ads Full Setup</h3>
                                             <p class="small text-muted mb-4">Conversion tracking, keyword research, and high-ROI campaign architecture.</p>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
@@ -1475,7 +1475,7 @@ $pricing_plans = [
                                             <div class="service-icon-pill" style="background: rgba(8, 102, 255, 0.1); color: #0866ff;">
                                                 <i class="bi bi-facebook"></i>
                                             </div>
-                                            <h5 class="service-title">Meta Ads Full Setup</h5>
+                                            <h3 class="service-title">Meta Ads Full Setup</h3>
                                             <p class="small text-muted mb-4">Pixel integration, audience building, and creative campaign deployment.</p>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
@@ -1491,7 +1491,7 @@ $pricing_plans = [
                                             <div class="service-icon-pill" style="background: rgba(214, 51, 132, 0.1); color: #d63384;">
                                                 <i class="bi bi-instagram"></i>
                                             </div>
-                                            <h5 class="service-title">Social Media Management</h5>
+                                            <h3 class="service-title">Social Media Management</h3>
                                             <p class="small text-muted mb-4">End-to-end management of platforms to maintain consistent brand presence.</p>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">

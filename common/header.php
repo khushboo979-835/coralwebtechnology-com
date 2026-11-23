@@ -608,7 +608,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     <!-- Mobile Offcanvas (Restored) -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
         <div class="offcanvas-header bg-light">
-            <h5 class="fw-bold m-0">CORAL WEB TECHNOLOGY</h5>
+            <span class="fw-bold m-0 fs-5">CORAL WEB TECHNOLOGY</span>
             <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">

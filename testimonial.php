@@ -42,11 +42,13 @@
         top: -5px;
     }
 
-    .testimonial-card h5 {
+    .testimonial-card h5,
+    .testimonial-card .client-name {
         margin-top: 1rem;
         font-weight: bold;
         color: var(--tertiary-color);
         text-align: right;
+        margin-bottom: 0;
         /* font-size: 1rem; */
     }
 
@@ -138,7 +140,7 @@
                         <span class="star half">&#9733;</span> <!-- or leave empty for no star -->
                     </div>
 
-                    <h5>- Ankit Sharma</h5>
+                    <p class="client-name"><strong>- Ankit Sharma</strong></p>
                 </div>
                 <div class="testimonial-card">
                     <blockquote>"Their team truly understands our needs and delivers with precision."</blockquote>
@@ -148,7 +150,7 @@
                         <span class="star full">&#9733;</span>
                         <span class="star full">&#9733;</span>
                     </div>
-                    <h5>- Ritu Verma</h5>
+                    <p class="client-name"><strong>- Ritu Verma</strong></p>
                 </div>
                 <div class="testimonial-card">
                     <blockquote>"Professional, punctual, and always helpful. Will hire again!"</blockquote>
@@ -159,7 +161,7 @@
                         <span class="star full">&#9733;</span>
                         <span class="star half">&#9733;</span> <!-- or leave empty for no star -->
                     </div>
-                    <h5>- Saurabh Jain</h5>
+                    <p class="client-name"><strong>- Saurabh Jain</strong></p>
                 </div>
                 <div class="testimonial-card">
                     <blockquote>"They transformed our online presence beyond expectations."</blockquote>
@@ -170,7 +172,7 @@
                         <span class="star full">&#9733;</span>
                         <span class="star half">&#9733;</span> <!-- or leave empty for no star -->
                     </div>
-                    <h5>- Priya Sinha</h5>
+                    <p class="client-name"><strong>- Priya Sinha</strong></p>
                 </div>
             </div>
 

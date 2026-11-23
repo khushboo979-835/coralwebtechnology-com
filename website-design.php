@@ -396,10 +396,12 @@
             padding: 40px 0;
             border-top: 5px solid var(--primary);
         }
-        .landing-footer h5 {
+        .landing-footer h5,
+        .landing-footer .footer-heading {
             color: #ffffff;
             font-weight: 700;
             margin-bottom: 15px;
+            font-size: 1.25rem;
         }
         .landing-footer a {
             color: #bbbbbb;
@@ -900,7 +902,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-5">
-                    <h5>Coral Web Technology</h5>
+                    <span class="footer-heading d-block">Coral Web Technology</span>
                     <p class="small text-muted mb-3" style="color:#bbbbbb !important;">We are a premier digital marketing and web design company delivering modern and conversion-focused digital products for businesses globally.</p>
                     <p class="small mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> Chandrakanta Apartment, Room No 201, Opposite Harihar Chamber, Boring Road Chauraha, Patna, Bihar - 800001</p>
                     <p class="small mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> <a href="mailto:coralwebtechnology@gmail.com" class="text-white text-decoration-underline">coralwebtechnology@gmail.com</a></p>

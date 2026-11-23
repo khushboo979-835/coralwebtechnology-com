@@ -45,12 +45,12 @@
 
         <div class="accordion custom-accordion" id="faqAccordion">
             <div class="accordion-item mb-2">
-                <h2 class="accordion-header" id="faqHeadingOne">
+                <h3 class="accordion-header" id="faqHeadingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
                         <i class="bi bi-question-circle me-2 text-danger"></i> What services does your company offer?
                     </button>
-                </h2>
+                </h3>
                 <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
@@ -61,12 +61,12 @@
             </div>
 
             <div class="accordion-item mb-2">
-                <h2 class="accordion-header" id="faqHeadingTwo">
+                <h3 class="accordion-header" id="faqHeadingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
                         <i class="bi bi-globe me-2 text-danger"></i> Do you serve international clients?
                     </button>
-                </h2>
+                </h3>
                 <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
@@ -77,12 +77,12 @@
             </div>
 
             <div class="accordion-item mb-2">
-                <h2 class="accordion-header" id="faqHeadingThree">
+                <h3 class="accordion-header" id="faqHeadingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
                         <i class="bi bi-stopwatch me-2 text-danger"></i> How long does it take to complete a website?
                     </button>
-                </h2>
+                </h3>
                 <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
@@ -93,12 +93,12 @@
             </div>
 
             <div class="accordion-item mb-2">
-                <h2 class="accordion-header" id="faqHeadingFour">
+                <h3 class="accordion-header" id="faqHeadingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
                         <i class="bi bi-headset me-2 text-danger"></i> Do you provide support after project delivery?
                     </button>
-                </h2>
+                </h3>
                 <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
